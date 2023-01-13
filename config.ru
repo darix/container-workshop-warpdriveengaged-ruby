@@ -6,7 +6,7 @@ class App
        'Content-Type' => 'text/html'
      }
      
-     response = ['<h1>Live longer and prosper!!</h1>']
+     response = ['<html><head><title>Aye Aye Captain</title></head><body><h1>Live longer and prosper!!</h1></body></html>']
      
      [200, headers, response]
    end
